@@ -38,4 +38,3 @@ def approximate_match(pattern, text, max_allowed_mismatches):
     for position in list(all_matches):
         print(position)
         print(text[position: position+len(pattern)])
-
